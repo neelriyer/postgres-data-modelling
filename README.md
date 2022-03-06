@@ -1,4 +1,3 @@
-# postgres-data-modeling
 ### Udacity Data Engineer Nanodegree project
 An imaginery startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
@@ -8,31 +7,6 @@ They'd like a data engineer to create a Postgres database with tables designed t
 - Python3 
 - Docker
 - Docker-Compose 
-
-### Project structure explanation
-```
-postgres-data-modeling
-│   README.md                # Project description
-│   docker-compose.yml       # Postgres container description   
-│
-└───data                     # The dataset
-|   |               
-│   └───log_data
-│   |   │  ...
-|   └───song_data
-│       │  ...
-│   
-└───src                     # Source code
-|   |               
-│   └───notebooks           # Jupyter notebooks
-│   |   │  etl.ipynb        # ETL helper notebook
-|   |   |  test.ipynb       # Psql queries notebook
-|   |   |
-|   └───scripts
-│       │  create_tables.py # Schema creation script
-|       |  etl.py           # ETL script
-|       |  sql_queries.py   # Definition of all sql queries
-```
 
 ### Instructions for running locally
 
